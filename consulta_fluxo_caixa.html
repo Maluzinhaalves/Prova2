@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 2</title>
+</head>
+<body>
+    <h3>Consulta ao caixa</h3>
+    <form action="consulta_fluxo_caixa.php" method="POST">
+        <div>
+        <label for="tipo">O que deseja consultar? </label> <br>
+        <input type="radio" name="tipo" id="tipo" value="saldo"> Consultar total do saldo
+        <input type="radio" name="tipo" id="tipo" value="saida"> Consultar total de saídas
+        <input type="radio" name="tipo" id="tipo" value="entrada">Consultar total de entradas
+       </div>
+        
+<input type="submit" value="enviar">
+</form>
+</body>
+</html>
